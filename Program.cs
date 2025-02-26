@@ -98,17 +98,17 @@ namespace curso
 
             #region Exercicio Produtos
 
-            Produto p = new Produto();
+            //Produto p = new Produto();
 
-            Console.WriteLine("Entre com os dados do produto: ");
-            Console.Write("Nome: ");
-            p.Nome = Console.ReadLine();
+            //Console.WriteLine("Entre com os dados do produto: ");
+            //Console.Write("Nome: ");
+            //p.Nome = Console.ReadLine();
 
-            Console.Write("Preco: ");
-            p.Preco = float.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //Console.Write("Preco: ");
+            //p.Preco = float.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            Console.Write("Quantidade: ");
-            p.Quantidade = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //Console.Write("Quantidade: ");
+            //p.Quantidade = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
 
             #region meu jeito
@@ -126,24 +126,29 @@ namespace curso
             #endregion
 
             #region jeito correto com toString
-            Console.WriteLine("Dados do produto: " + p);
+            //Console.WriteLine("Dados do produto: " + p);
 
-            Console.Write("Digite a quantidade de produtos a serem adcionadas: ");
-            p.AdicionarProdutos(int.Parse(Console.ReadLine()));
+            //Console.Write("Digite a quantidade de produtos a serem adcionadas: ");
+            //p.AdicionarProdutos(int.Parse(Console.ReadLine()));
 
-            Console.WriteLine("Dados atualizados: " + p);
+            //Console.WriteLine("Dados atualizados: " + p);
 
-            Console.Write("Digite a quantidade de produtos a serem removidos: ");
-            p.RemoverProdutos(int.Parse(Console.ReadLine()));
+            //Console.Write("Digite a quantidade de produtos a serem removidos: ");
+            //p.RemoverProdutos(int.Parse(Console.ReadLine()));
 
-            Console.WriteLine("Dados atualizados: " + p);
+            //Console.WriteLine("Dados atualizados: " + p);
             #endregion
             #endregion
 
 
             #region Exercicios fixacao
 
+            Retangulo r = new Retangulo();
+            Console.WriteLine("Entre a largura e altura do retângulo: ");
+            r.Altura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            r.Largura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
+            Console.WriteLine(r);
             #endregion
 
         }
