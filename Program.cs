@@ -142,13 +142,55 @@ namespace curso
 
 
             #region Exercicios fixacao
+            #region exercicio 1
+            //Retangulo r = new Retangulo();
+            //Console.WriteLine("Entre a largura e altura do retângulo: ");
+            //r.Altura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //r.Largura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            Retangulo r = new Retangulo();
-            Console.WriteLine("Entre a largura e altura do retângulo: ");
-            r.Altura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            r.Largura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //Console.WriteLine(r);
+            #endregion
 
-            Console.WriteLine(r);
+            #region exercicio 2
+            //Funcionario f = new Funcionario();
+
+            //Console.Write("Nome: ");
+            //f.Nome = Console.ReadLine();
+            //Console.Write("Salário: ");
+            //f.SalarioBruto = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //Console.Write("Imposto: ");
+            //f.Imposto = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            //Console.WriteLine("Funcionário: " + f);
+
+            //Console.WriteLine("Digite a porcentagem para aumentar o salário: ");
+            //f.AumentarSalario(double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture));
+
+            //Console.WriteLine("Dados atualizados: " + f);
+            #endregion
+
+            #region exercicio 3
+            //double media; 
+
+            //Aluno a = new Aluno();
+
+            
+            //Console.Write("Nome do aluno: ");
+            //a.Nome = Console.ReadLine();
+
+            //Console.WriteLine("Digite as três notas do aluno: ");
+            //a.N1 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //a.N2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //a.N3 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            //media = a.CalculaMediaAluno();
+
+           
+
+            //Console.WriteLine(a.VerificaSituacao(media));
+            #endregion
+
+
             #endregion
 
         }
