@@ -5,7 +5,7 @@ namespace curso
 {
     class Program
     {
-        
+        static double raio;
         static void Main(string[] args)
         {
             #region Exercicio Triangulo
@@ -174,7 +174,7 @@ namespace curso
 
             //Aluno a = new Aluno();
 
-            
+
             //Console.Write("Nome do aluno: ");
             //a.Nome = Console.ReadLine();
 
@@ -185,12 +185,34 @@ namespace curso
 
             //media = a.CalculaMediaAluno();
 
-           
+
 
             //Console.WriteLine(a.VerificaSituacao(media));
             #endregion
 
 
+            #endregion
+
+            #region Exercicio membros static
+
+            //Console.Write("Entre o valor do Raio: ");
+            //Calculadora.Raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //raio = Calculadora.Raio;
+
+            //Console.WriteLine("\nCircunferência: " 
+            //    + Calculadora.Circunferencia(raio).ToString("F2", CultureInfo.InvariantCulture) 
+            //    + "\nVolume: "+Calculadora.Volume(raio).ToString("F2", CultureInfo.InvariantCulture) 
+            //    + "\nValor de PI: "+ Calculadora.Pi);
+            #endregion
+
+            #region Exercicio fixacao static
+            Console.Write("Qual é a cotação do dólar? ");
+            ConversorDeMoeda.Cotacao = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.Write("Quantos dólares você vai comprar? ");
+            ConversorDeMoeda.Dolares = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.WriteLine("Valor a ser pago em reais = " + ConversorDeMoeda.Converter().ToString("F2", CultureInfo.InvariantCulture));
             #endregion
 
         }
